@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    background: #171d22;
+}
+li, a{
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #dbe1e7;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.nav{
+    list-style: none;
+}
+.nav li{
+    display: inline-block;
+    padding: 0 50px;
+}
+.nav li a:hover{
+    color: #668197;
+    border-radius: 8px;
+}
+.logo{
+    cursor: pointer;
+    height: 100px;
+}
+button{
+    text-transform: uppercase;
+    padding: 9px 25px;
+    border: none;
+    color:#171d22;
+    background-color: #eee33a;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#pozadina1{
+    background-image: url("images/lol.svg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+}
+#mojaslika img{
+    position: absolute;
+    max-width: 70%;
+    height: 90%;
+    border-radius: 25px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+#zamene{
+    text-align: center;
+    color: #171d22;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+h1{
+    font-size: 3em;
+    padding-left: 400px;
+}
+h2 {
+    padding-top: 20px;
+    padding-left: 390px;
+}
+#skolo li{
+    text-decoration: none;
+    list-style: none;
+    color: #dbe1e7;
+    font-size: 3em;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 70px;
+}
+#skolo li a:hover{
+    color: #668197;
+    border-radius: 8px;
+}
+p{
+    color: #dbe1e7;
+    text-align: justify;
+    margin: 10px;
+    font-size: 2em;
+}
+.kolona {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+.kolona img {
+    width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+.kolona img:hover {
+    opacity: 1;
+}
+div.slikicka {
+    display: inline-block;
+    width: 30%;
+    background-color: #668197;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+div.container {
+    text-align: justify;
+    padding: 10px 40px;
+}
+.slikicka img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    background-color: #eee33a;
+}
+footer a{
+    color: #171d22;
+    padding-left: 650px;
+    font-size: 2em;
+}
+#mail{
+    padding-top: 20px;
+}
